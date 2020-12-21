@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Spartan-Bold";
-  src: url("../assets/fonts/static/Spartan-Bold.ttf");
+  src: url("./assets/fonts/static/Spartan-Bold.ttf");
 }
 
 @font-face {
   font-family: "Spartan-Normal";
-  src: url("../assets/fonts/Spartan-VariableFont_wght.ttf");
+  src: url("./assets/fonts/Spartan-VariableFont_wght.ttf");
 }
 
 body {
