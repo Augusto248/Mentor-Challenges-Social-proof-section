@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Spartan-Bold";
+  src: url("/assets/fonts/static/Spartan-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Spartan-Normal";
+  src: url("/assets/fonts/Spartan-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: Spartan-Normal;
+}
+
+.main-content {
+  margin: 0 auto;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-content__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-content__title {
+  padding: 10px;
+  color: #51204c;
+  font-family: Spartan-Bold;
+}
+
+.main-content__subtitle {
+  padding-top: 10px;
+}
+.main-content__ratings {
+  padding: 30px;
+}
+.main-content__rating {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(252, 216, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-content__stars {
+  padding-bottom: 10px;
+}
+
+.main-content__rated {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #51204c;
+  font-family: Spartan-Bold;
+}
+
+.card {
+  background-color: #511f50;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.card__header {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.card__user-info {
+  padding-left: 20px;
+}
+
+.card__name {
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+}
+
+.card__verified {
+  font-size: 0.8rem;
+  color: #ba4f87;
+}
+
+.card__img {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.card__info {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+@media screen and (min-width: 1240px) {
+  .main-content {
+    width: 1240px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main-content__info {
+    text-align: left;
+    padding-right: 170px;
+    padding-left: 33px;
+    width: 50%;
+  }
+  .main-content__title {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .main-content__ratings {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .main-content__rating {
+    flex-direction: row;
+  }
+  .main-content__stars {
+    padding: 10px;
+  }
+  .main-content__rating--middle {
+    margin-left: 40px;
+  }
+  .main-content__rating--last {
+    margin-left: 80px;
+  }
+  .main-content__rated {
+    padding-left: 20px;
+  }
+  .main-content__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .card {
+    width: 30%;
+    height: 230px;
+  }
+  .card--middle {
+    margin-top: 20px;
+  }
+  .card--last {
+    margin-top: 40px;
+  }
+}
