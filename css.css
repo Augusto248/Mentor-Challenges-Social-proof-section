@@ -99,6 +99,10 @@ body {
   font-size: 0.8rem;
   line-height: 1.3rem;
 }
+.attribution {
+  text-align: center;
+  margin: 30px;
+}
 
 @media screen and (min-width: 1240px) {
   .main-content {
